@@ -247,32 +247,3 @@ Este proyecto es de uso personal y educativo.
 ## 👤 Autor
 
 Juan León - Proyecto de Extracción de Documentos
-
-## 🤝 Contribuciones
-
-Si encuentras bugs o quieres agregar mejoras:
-
-1. Haz fork del proyecto
-2. Crea una rama feature (`git checkout -b feature/nueva-funcionalidad`)
-3. Commit tus cambios (`git commit -m 'Agrega nueva funcionalidad'`)
-4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Abre un Pull Request
-
----
-
-**Rama sugerida:** `feature/pdf-to-image-extractor`
-
-**Commit inicial sugerido:**
-
-```bash
-git add .
-git commit -m "feat: implementa extractor de cédulas con recorte automático
-
-- Agrega conversión de PDF a PNG de alta calidad
-- Implementa detección y recorte automático de fondo blanco
-- Mejora resolución de imágenes sin pérdida de calidad
-- Crea interfaz de consola para selección de archivos
-- Configura estructura de carpetas data/ y output/
-- Agrega .gitignore para proteger documentos sensibles"
-```
-
