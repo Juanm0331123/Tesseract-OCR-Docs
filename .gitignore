@@ -1,0 +1,73 @@
+# Entorno virtual de Python
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Archivos de distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de salida procesados
+output/*.png
+output/*.jpg
+output/*.jpeg
+output/*.pdf
+
+# Archivos de entrada (PDFs originales)
+data/*.pdf
+data/*.PDF
+
+# Archivos de cache y temporales
+.pytest_cache/
+.coverage
+.cache
+*.log
+*.tmp
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Variables de entorno
+.env
+.env.local
+
+# Archivos de Windows
+Thumbs.db
+desktop.ini
+
+# Archivos de configuración local
+config.local.py
+settings.local.py
+
+# Mantener estructura de carpetas vacías
+!data/.gitkeep
+!output/.gitkeep
